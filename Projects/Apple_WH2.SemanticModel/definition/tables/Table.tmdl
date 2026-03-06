@@ -1,0 +1,25 @@
+table Table
+	lineageTag: 67cc3120-11b0-4fce-a2aa-7b9c3f8ce864
+
+	column Column
+		formatString: 0
+		lineageTag: fd43d62d-a9cb-4c37-8e66-2968318792f3
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Table = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 7cb7e665ca264ab58ccd4ded8cb3afd6
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":"CALENDARAUTO()"}
+
+	annotation 277cc1b9-af89-4597-8e15-cacc25c0886b = ```
+			You cannot use calculated table to reference Direct Lake table. The model includes the following calculated table, '<oii>Table</oii>', which is not supported. Please remove the calculated table. See https://go.microsoft.com/fwlink/?linkid=2215281 to learn more.
+			
+			```
+

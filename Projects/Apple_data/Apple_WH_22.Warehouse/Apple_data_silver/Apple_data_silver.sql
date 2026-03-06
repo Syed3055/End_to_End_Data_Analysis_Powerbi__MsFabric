@@ -1,0 +1,1 @@
+CREATE SCHEMA Apple_data_silver;

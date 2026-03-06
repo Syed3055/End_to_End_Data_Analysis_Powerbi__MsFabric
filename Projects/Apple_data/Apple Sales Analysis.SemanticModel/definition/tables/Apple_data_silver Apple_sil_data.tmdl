@@ -1,0 +1,293 @@
+table 'Apple_data_silver Apple_sil_data'
+	lineageTag: 06c03209-c4b4-4b72-902d-7292bdd70dc0
+
+	column sale_id
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 0f211744-7459-41ff-9e33-2262137200a4
+		summarizeBy: none
+		sourceColumn: sale_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sale_date
+		dataType: dateTime
+		formatString: Short Date
+		sourceProviderType: date
+		lineageTag: e20d13bd-c81e-4518-a936-aa830349be89
+		summarizeBy: none
+		sourceColumn: sale_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column year
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: eb4f9e5c-a3d4-4e0f-ad00-4229d9eabfaf
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column quarter
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 8209b8be-a9d6-435c-98cd-6311b377b41d
+		summarizeBy: none
+		sourceColumn: quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column month
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 46fd74a1-3a02-471b-b60a-73e5bbb59241
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: dc063365-c205-4e9e-82f0-85b7a073d437
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column region
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 1a26b4b9-7c1d-4e19-99cd-3ee269af6093
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 7c87c994-d4cd-488b-914f-67fcd249f266
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_name
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: f3ac2994-a9de-453f-af21-9868321af3a4
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: f43b46cc-471d-4aa1-944d-f4f2563c3167
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column storage
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 08c21767-bab8-461a-a9c9-5077fc941a3a
+		summarizeBy: none
+		sourceColumn: storage
+
+		annotation SummarizationSetBy = Automatic
+
+	column color
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 3d3c5b38-643f-4fc3-b5e4-a17af8dff5d2
+		summarizeBy: none
+		sourceColumn: color
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price_usd
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 6b9acc50-c30a-4b83-a225-7fe364c6ea3f
+		summarizeBy: sum
+		sourceColumn: unit_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column discount_pct
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 3a3b78b3-fbe4-4cb1-8193-b91e5750849d
+		summarizeBy: sum
+		sourceColumn: discount_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column units_sold
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: db8715ad-470e-4831-bd28-48dd1599cae5
+		summarizeBy: sum
+		sourceColumn: units_sold
+
+		annotation SummarizationSetBy = Automatic
+
+	column discounted_price_usd
+		dataType: double
+		sourceProviderType: float
+		lineageTag: e91ff14f-91d2-4c31-8d01-52067c642ed5
+		summarizeBy: sum
+		sourceColumn: discounted_price_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_usd
+		dataType: double
+		sourceProviderType: float
+		lineageTag: d0097969-a255-47be-9e94-ae3f27fca41d
+		summarizeBy: sum
+		sourceColumn: revenue_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column currency
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 1badce10-d8cb-4046-a78c-284474190265
+		summarizeBy: none
+		sourceColumn: currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column fx_rate_to_usd
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 521130da-9f7d-452a-b686-a76214ac300e
+		summarizeBy: sum
+		sourceColumn: fx_rate_to_usd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue_local_currency
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 7dd4dd1e-63d9-4e3c-ac5c-9405f6a41b6d
+		summarizeBy: sum
+		sourceColumn: revenue_local_currency
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sales_channel
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: c5239dcc-95e8-4179-afc6-542b2f0bf29f
+		summarizeBy: none
+		sourceColumn: sales_channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_method
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: f695af01-82de-40e7-b6a6-8606b8b5307e
+		summarizeBy: none
+		sourceColumn: payment_method
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_segment
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 48ab2db9-eba0-4d74-9600-58581f8ea25c
+		summarizeBy: none
+		sourceColumn: customer_segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_age_group
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 6b618929-4737-49a3-954b-7a6b226f4461
+		summarizeBy: none
+		sourceColumn: customer_age_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column previous_device_os
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 57dca9f2-0704-4ce2-bbb4-c7f77517c588
+		summarizeBy: none
+		sourceColumn: previous_device_os
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_rating
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 2a717e62-ad70-4d22-927b-cb05e33421db
+		summarizeBy: sum
+		sourceColumn: customer_rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column return_status
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 0258956a-b642-4a89-8f9c-eb894f3327d2
+		summarizeBy: none
+		sourceColumn: return_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column __filepath__
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: b3c4d825-4512-48b5-a1dd-33149889f9a6
+		summarizeBy: none
+		sourceColumn: __filepath__
+
+		annotation SummarizationSetBy = Automatic
+
+	column year_month
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: d55598ca-1724-4352-aacf-c6e637cb2148
+		summarizeBy: none
+		sourceColumn: year_month
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Apple_data_silver Apple_sil_data' = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database("s4upbqk4pime5ebsio5r7pkbu4-lyskuohroggu7f5xvfby3ujtjm.datawarehouse.fabric.microsoft.com", "Apple_data"),
+				    Apple_data_silver_Apple_sil_data = Source{[Schema="Apple_data_silver",Item="Apple_sil_data"]}[Data]
+				in
+				    Apple_data_silver_Apple_sil_data
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,24 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Apple_data_silver Apple_sil_data","LastRefreshTable","MeasureTable"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Apple_data_silver Apple_sil_data'
+ref table Calendar
+ref table DateTableTemplate_fab91e62-d6c7-4a26-a7f5-f34e9f97deef
+ref table LastRefreshTable
+ref table LocalDateTable_f0c4afef-cb54-4ffa-8cf3-5b58b4d8a2db
+ref table MeasureTable
+ref table LocalDateTable_487a1a43-9e18-4c78-aa87-ddb735da94e9
+
+ref cultureInfo en-US
+

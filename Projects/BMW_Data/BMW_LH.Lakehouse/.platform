@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "BMW_LH"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8b975984-4c07-bb65-4f0b-d236273a29fe"
+  }
+}

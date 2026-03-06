@@ -1,0 +1,1048 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "1c310ba421ddba740c4e",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 1002,
+    "height": 720.2526793186297,
+    "width": 889.43120157654619,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+                  },
+                  {
+                    "value": "About Apple",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "               Apple Inc.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": " is an American multinational technology company headquartered in ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Cupertino, California",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Cupertino,_California"
+                  },
+                  {
+                    "value": ", in ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Silicon Valley",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Silicon_Valley"
+                  },
+                  {
+                    "value": ", best known for its consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Steve Jobs",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Steve_Jobs"
+                  },
+                  {
+                    "value": ", ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Steve Wozniak",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+                  },
+                  {
+                    "value": " and ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Ronald Wayne",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Ronald_Wayne"
+                  },
+                  {
+                    "value": ", the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. It was renamed to its current name in 2007 as the company had expanded its focus from computers to consumer electronics. Apple is one of the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Big Tech",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Big_Tech"
+                  },
+                  {
+                    "value": " companies.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The company was founded in 1976 to market Wozniak's ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Apple I",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_I"
+                  },
+                  {
+                    "value": " personal computer. Its successor, the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Apple II",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_II_(original)"
+                  },
+                  {
+                    "value": ", became one of the first successful mass-produced ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "microcomputers",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Microcomputer"
+                  },
+                  {
+                    "value": ". Apple introduced the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Lisa",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Lisa"
+                  },
+                  {
+                    "value": " in 1983 and the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Macintosh",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Macintosh_128K"
+                  },
+                  {
+                    "value": " in 1984 as some of the first computers to use a ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "graphical user interface",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Graphical_user_interface"
+                  },
+                  {
+                    "value": " and a ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "mouse",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Computer_mouse"
+                  },
+                  {
+                    "value": ". By 1985, internal conflicts led to Jobs leaving the company to form ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "NeXT",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/NeXT"
+                  },
+                  {
+                    "value": " and Wozniak withdrawing to other ventures; ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "John Sculley",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/John_Sculley"
+                  },
+                  {
+                    "value": " served as ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "CEO",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/CEO"
+                  },
+                  {
+                    "value": " for over a decade. In the 1990s, Apple lost considerable market share in the personal computer industry to the lower-priced ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Wintel",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Wintel"
+                  },
+                  {
+                    "value": " duopoly of ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Intel",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Intel"
+                  },
+                  {
+                    "value": "-powered ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "PC clones",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IBM_PC_compatible"
+                  },
+                  {
+                    "value": " running ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Microsoft Windows",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Microsoft_Windows"
+                  },
+                  {
+                    "value": ", and neared bankruptcy by 1997. To overhaul its market strategy, Apple acquired NeXT, bringing Jobs back to the company. Under his leadership, Apple returned to profitability by introducing the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "iMac",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IMac"
+                  },
+                  {
+                    "value": ", ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "iPod",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IPod"
+                  },
+                  {
+                    "value": ", ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "iPhone",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IPhone"
+                  },
+                  {
+                    "value": ", and ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "iPad",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IPad"
+                  },
+                  {
+                    "value": " devices; creating the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "iTunes Store",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/ITunes_Store"
+                  },
+                  {
+                    "value": "; launching the \"",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Think different",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Think_different"
+                  },
+                  {
+                    "value": "\" ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "advertising",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc._advertising"
+                  },
+                  {
+                    "value": " campaign; and opening the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Apple Store",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Store"
+                  },
+                  {
+                    "value": " retail chain. Jobs resigned in 2011 for health reasons, and died two months later; he was succeeded as CEO by ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Tim Cook",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Tim_Cook"
+                  },
+                  {
+                    "value": ".",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Branding",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "inherit",
+                      "fontSize": "inherit",
+                      "color": "inherit"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "According to Steve Jobs, the company's name was inspired by his visit to an apple farm while on a ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "fruitarian",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Fruitarian"
+                  },
+                  {
+                    "value": " diet. Apple's first logo, designed by ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Ron Wayne",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Ron_Wayne"
+                  },
+                  {
+                    "value": ", depicts ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Sir Isaac Newton",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Sir_Isaac_Newton"
+                  },
+                  {
+                    "value": " sitting under an apple tree. It was almost immediately replaced by ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Rob Janoff",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Rob_Janoff"
+                  },
+                  {
+                    "value": "'s \"rainbow Apple\", the now-familiar rainbow-colored silhouette of an apple with a bite taken out of it.This logo has been erroneously referred to as a tribute to ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Alan Turing",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Alan_Turing"
+                  },
+                  {
+                    "value": ", with the bite mark a reference to ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "his method of suicide",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Alan_Turing#Death"
+                  },
+                  {
+                    "value": ".",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "On August 27, 1999,",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "[216]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "12.8px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-web.archive.org-216"
+                  },
+                  {
+                    "value": " Apple officially dropped the rainbow scheme and began to use monochromatic logos nearly identical in shape to the previous rainbow incarnation. An ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Aqua",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Aqua_(user_interface)"
+                  },
+                  {
+                    "value": "-themed version of the monochrome logo was used from 1997 until 2003, and a glass-themed version was used from 2007 until 2013.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Advertising",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "inherit",
+                      "fontSize": "inherit",
+                      "color": "inherit"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple's first slogan, \"",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Byte",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Byte"
+                  },
+                  {
+                    "value": " into an Apple\", was coined in the late 1970s. From 1997 to 2002, the slogan \"",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Think different",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Think_different"
+                  },
+                  {
+                    "value": "\" was used in advertising campaigns, and is still closely associated with Apple.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "[228]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "12.8px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-228"
+                  },
+                  {
+                    "value": " Apple also has slogans for specific product lines—for example, \"iThink, therefore iMac\" was used in 1998 to promote the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "iMac",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IMac"
+                  },
+                  {
+                    "value": ", and \"Say hello to iPhone\" has been used in iPhone advertisements.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "[230]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "12.8px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-230"
+                  },
+                  {
+                    "value": " \"Hello\" was also used to introduce the original Macintosh, ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Newton",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Newton"
+                  },
+                  {
+                    "value": ", iMac (\"hello (again)\"), and iPod.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "From the introduction of the Macintosh in 1984, with the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "1984 Super Bowl advertisement",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/1984_(television_commercial)"
+                  },
+                  {
+                    "value": " to the more modern ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Get a Mac",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Get_a_Mac"
+                  },
+                  {
+                    "value": " adverts, Apple has been recognized for its efforts toward effective advertising and marketing for its products. However, claims made by later campaigns ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "were criticized",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc._advertising#Criticism"
+                  },
+                  {
+                    "value": ", particularly the 2005 Power Mac ads. Apple's product advertisements gained significant attention as a result of their graphics and song choice. Musicians who benefited from an improved profile as a result of their songs being included on Apple advertisements include Canadian singer ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Feist",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Feist_(singer)"
+                  },
+                  {
+                    "value": " with the song \"",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "1234",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/1234_(Feist_song)"
+                  },
+                  {
+                    "value": "\" and ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "Yael Naïm",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Yael_Na%C3%AFm"
+                  },
+                  {
+                    "value": " with the song \"",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": "New Soul",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/New_Soul"
+                  },
+                  {
+                    "value": "\".",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

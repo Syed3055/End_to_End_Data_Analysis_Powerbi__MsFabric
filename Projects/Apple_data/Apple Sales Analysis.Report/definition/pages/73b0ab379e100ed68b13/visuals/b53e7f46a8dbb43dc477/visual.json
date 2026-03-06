@@ -1,0 +1,1455 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "b53e7f46a8dbb43dc477",
+  "position": {
+    "x": 889.43120157654619,
+    "y": 0,
+    "z": 501,
+    "height": 720.2526793186297,
+    "width": 390.60335286018949,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Variant of the ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "Apple logo",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_logo"
+                  },
+                  {
+                    "value": " used since 1977",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Aerial view of ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "Apple Park",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Park"
+                  },
+                  {
+                    "value": ", the company's headquarters, in ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "Cupertino, California",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Cupertino,_California"
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Formerly",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Computer Company (1976–1977)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Computer, Inc. (1977–2007)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Company type",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Public",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Public_company"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Traded as",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Ticker_symbol"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Nasdaq",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Nasdaq"
+                  },
+                  {
+                    "value": ": ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "AAPL",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://www.nasdaq.com/market-activity/stocks/aapl"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Nasdaq-100",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Nasdaq-100"
+                  },
+                  {
+                    "value": " component",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "DJIA",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/DJIA"
+                  },
+                  {
+                    "value": " component",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "S&P 100",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/S%26P_100"
+                  },
+                  {
+                    "value": " component",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "S&P 500",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/S%26P_500"
+                  },
+                  {
+                    "value": " component",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ISIN",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/International_Securities_Identification_Number"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "US0378331005",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://isin.toolforge.org/?language=en&isin=US0378331005"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Industry",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Consumer electronics",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Consumer_electronics"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Software services",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Online services",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Founded",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "April 1, 1976 (49 years ago), in ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "Los Altos, California",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Los_Altos,_California"
+                  },
+                  {
+                    "value": ", U.S.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Founders",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Steve Jobs",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Steve_Jobs"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Steve Wozniak",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ronald Wayne",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Ronald_Wayne"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Headquarters",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Park, ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cupertino, California",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ", ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "US",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Number of locations",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "540 ",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "Apple Stores",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Store"
+                  },
+                  {
+                    "value": " (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Area served",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Worldwide",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Key people",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Arthur Levinson",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Arthur_Levinson"
+                  },
+                  {
+                    "value": " (",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "chairman",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Chairman"
+                  },
+                  {
+                    "value": ")",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tim Cook",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Tim_Cook"
+                  },
+                  {
+                    "value": " (",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "CEO",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Chief_executive_officer"
+                  },
+                  {
+                    "value": ")",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Products",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "AirPods",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/AirPods"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "AirTag",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/AirTag"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple TV",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_TV_(device)"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Vision Pro",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Watch",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Watch"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "HomePod",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/HomePod"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "iPad",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IPad"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "iPhone",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/IPhone"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Mac",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Mac_(computer)"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Services",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "App Store",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/App_Store_(Apple)"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Arcade",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Arcade"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Card",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Card"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Music",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Music"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Pay",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Pay"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple TV",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_TV_(streaming_service)"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "CarPlay",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/CarPlay"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "iCloud",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/ICloud"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Pixelmator",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Pixelmator"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Shazam",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Shazam_(music_app)"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Revenue",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " US$416 billion (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Operating income",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Earnings_before_interest_and_taxes"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " US$133 billion (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Net income",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Net_income"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " US$112 billion (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Total assets",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Asset"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " US$359 billion (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Total equity",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Equity_(finance)"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " US$74 billion (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Number of employees",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "166,000 (2025)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Subsidiaries",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Subsidiary"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Studios",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Studios"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Beats Electronics",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Beats_Electronics"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Beddit",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Beddit"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Braeburn Capital",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Braeburn_Capital"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Claris",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Claris"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Globalstar",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Globalstar"
+                  },
+                  {
+                    "value": " (20%)",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ASN",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Autonomous_System_Number"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "714",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://bgp.tools/as/714"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Website",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "apple.com",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "var(--color-progressive,#36c)"
+                    },
+                    "url": "https://www.apple.com/"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Footnotes / references",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Financials as of fiscal year ended September 27, 2025.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "References:",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "14.08px",
+                      "color": "black"
+                    }
+                  },
+                  {
+                    "value": "[1]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "11.264px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-Apple-10-K-Report-2025-1"
+                  },
+                  {
+                    "value": "[2]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "11.264px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-storelist-2"
+                  },
+                  {
+                    "value": "[3]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "11.264px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-3"
+                  },
+                  {
+                    "value": "[4]",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "11.264px",
+                      "color": "var(--color-progressive,#36c)",
+                      "lineHeight": "0",
+                      "position": "relative",
+                      "verticalAlign": "baseline",
+                      "scriptType": "super",
+                      "top": "-0.25em"
+                    },
+                    "url": "https://en.wikipedia.org/wiki/Apple_Inc.#cite_note-4"
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Apple Inc.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  },
+                  {
+                    "value": " is an American multinational technology company headquartered in",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Light",
+                      "fontSize": "16px",
+                      "color": "#202122"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
