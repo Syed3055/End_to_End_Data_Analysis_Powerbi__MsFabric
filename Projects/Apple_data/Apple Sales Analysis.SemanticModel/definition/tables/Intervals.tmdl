@@ -1,0 +1,49 @@
+table Intervals
+	lineageTag: 46d33766-f447-48f7-86ce-857b107b0ee0
+
+	column Intervals
+		lineageTag: 36f7a281-64c0-4e25-92c3-cd2a5c2099da
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Intervals Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Intervals Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Intervals Fields'
+		isHidden
+		lineageTag: 20b5af07-6f1a-4e3d-9072-7dbba736fac5
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Intervals Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Intervals Order'
+		isHidden
+		formatString: 0
+		lineageTag: 642ac734-a52f-42a0-b534-7481fbbd8dad
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Intervals = calculated
+		mode: import
+		source =
+				{
+				    ("DayName", NAMEOF('Calendar'[DayName]), 0),
+				    ("Month_Name", NAMEOF('Calendar'[Month_Name]), 1),
+				    ("Year", NAMEOF('Calendar'[Year]), 2)
+				}
+
+	annotation PBI_Id = f71c38490c6f424d8ef71a42bec560f6
+

@@ -4,23 +4,70 @@ table MeasureTable
 	measure UserLogin = USERNAME()
 		lineageTag: 72e1bbfa-024d-42c8-867c-99a44719a656
 
-	column Column1
-		dataType: int64
-		formatString: 0
-		lineageTag: 9bb0f23a-cfd7-4bdf-9071-218c190dd118
-		summarizeBy: sum
-		sourceColumn: Column1
+	measure TotalRevenue = SUM('Apple_data_silver Apple_sil_data'[revenue_usd])
+		lineageTag: b0df1c89-4e0a-4a4f-95fb-a468af900509
 
-		annotation SummarizationSetBy = Automatic
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure PreviousMonthRevenue = CALCULATE([TotalRevenue],DATEADD('Calendar'[Date],-1,MONTH))
+		lineageTag: 7a6e9aa8-eadd-42f6-906d-3138a1c304de
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure SameperiodLastYear = CALCULATE([TotalRevenue],SAMEPERIODLASTYEAR('Calendar'[Date]))
+		lineageTag: 7002d50d-cb34-4cad-918f-87e6cec04eb3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TotalOrders = COUNTROWS('Apple_data_silver Apple_sil_data')
+		formatString: 0
+		lineageTag: 5e7b6e5a-cdb1-4389-a5f2-d5d5cd9e95ba
+
+	measure TotalMTD = TOTALMTD(COUNT('Apple_data_silver Apple_sil_data'[sale_id]), 'Calendar'[Date])
+		formatString: 0
+		lineageTag: 0dd618dc-a957-4d10-b491-01c130565180
+
+	measure MOMGrowth% = IF([PreviousMonthRevenue]=BLANK(),BLANK(), DIVIDE([TotalRevenue]-[PreviousMonthRevenue],[PreviousMonthRevenue],0))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: e1a13b99-4f40-4e05-b5ac-5128aaa9128a
+
+	measure PreviousYearOrders = CALCULATE(COUNTROWS('Apple_data_silver Apple_sil_data'), DATEADD('Calendar'[Date],-1,YEAR))
+		formatString: 0
+		lineageTag: 995dfc8f-3185-4ffb-bc63-538dc4648d38
+
+	measure YOY_Orders_Growth% = DIVIDE([TotalOrders]-[PreviousYearOrders],[PreviousYearOrders],0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: a9062d91-edda-4bc3-83bf-c1d389c830a9
+
+	measure PreviousYearRevenue = CALCULATE([TotalRevenue],DATEADD('Calendar'[Date],-1,YEAR))
+		lineageTag: e9d293b2-03ed-4ad2-af32-6d19390aad5e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure YOYRevenueGrowth% = DIVIDE([TotalRevenue]-[PreviousYearRevenue],[PreviousYearRevenue],0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 3662731f-a960-4ada-a7ab-ebd387f027c8
+
+	measure MOMCFArrows = IF([TotalRevenue]>[PreviousMonthRevenue],UNICHAR(9650),UNICHAR(9660))
+		lineageTag: 7c7f881d-af51-436b-804e-cd090ec68f8f
+
+	measure MOMCF_Colors = IF([TotalRevenue]>[PreviousMonthRevenue],"Green","Red")
+		lineageTag: feb93afd-ce23-40f2-8799-e7f60ea54c39
+
+	measure TotalYTD = TOTALYTD([TotalRevenue],'Calendar'[Date])
+		lineageTag: 89e41e86-154a-4768-9db7-988608ae85d5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	partition MeasureTable = m
 		mode: import
 		source =
 				let
 				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
-				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", Int64.Type}})
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", Int64.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
 				in
-				    #"Changed Type"
+				    #"Removed Columns"
 
 	annotation PBI_ResultType = Table
 

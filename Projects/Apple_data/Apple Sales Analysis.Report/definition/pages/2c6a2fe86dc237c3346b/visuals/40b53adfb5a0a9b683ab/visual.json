@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "40b53adfb5a0a9b683ab",
+  "position": {
+    "x": 14.927516669816159,
+    "y": 58.466106956779953,
+    "z": 0,
+    "height": 388.11543341522014,
+    "width": 441.60570148206136,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "TotalRevenue"
+                }
+              },
+              "queryRef": "MeasureTable.TotalRevenue",
+              "nativeQueryRef": "TotalRevenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "PreviousMonthRevenue"
+                }
+              },
+              "queryRef": "MeasureTable.PreviousMonthRevenue",
+              "nativeQueryRef": "PreviousMonthRevenue"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Apple_data_silver Apple_sil_data"
+                    }
+                  },
+                  "Property": "month"
+                }
+              },
+              "queryRef": "Apple_data_silver Apple_sil_data.month",
+              "nativeQueryRef": "month"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

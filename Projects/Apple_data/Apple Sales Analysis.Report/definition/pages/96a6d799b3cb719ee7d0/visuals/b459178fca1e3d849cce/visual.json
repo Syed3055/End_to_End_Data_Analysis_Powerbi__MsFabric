@@ -1,0 +1,111 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "b459178fca1e3d849cce",
+  "position": {
+    "x": 0,
+    "y": 169.17852225791648,
+    "z": 4004,
+    "height": 323.42952784601675,
+    "width": 446.58154037200012
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Month_Name"
+                }
+              },
+              "queryRef": "Calendar.Month_Name",
+              "nativeQueryRef": "Month_Name"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "TotalRevenue"
+                }
+              },
+              "queryRef": "MeasureTable.TotalRevenue",
+              "nativeQueryRef": "TotalRevenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "PreviousMonthRevenue"
+                }
+              },
+              "queryRef": "MeasureTable.PreviousMonthRevenue",
+              "nativeQueryRef": "PreviousMonthRevenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "MOMGrowth%"
+                }
+              },
+              "queryRef": "MeasureTable.Growth%",
+              "nativeQueryRef": "MOMGrowth%"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c3400f9bbe1088569043",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "MeasureTable"
+              }
+            },
+            "Property": "TotalRevenue"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "1c76fe900e2a143e1bb0",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "MeasureTable"
+              }
+            },
+            "Property": "PreviousMonthRevenue"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

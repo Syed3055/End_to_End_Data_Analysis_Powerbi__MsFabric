@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "4c188703a9a3d14ac8e0",
+  "position": {
+    "x": 919.2862349161785,
+    "y": 293.57449450638444,
+    "z": 4,
+    "height": 133.10369030586074,
+    "width": 253.7677833868747
+  },
+  "visual": {
+    "visualType": "card",
+    "autoSelectVisualType": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Apple_data_silver Apple_sil_data"
+                        }
+                      },
+                      "Property": "year"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Apple_data_silver Apple_sil_data.year)",
+              "nativeQueryRef": "Sum of year"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

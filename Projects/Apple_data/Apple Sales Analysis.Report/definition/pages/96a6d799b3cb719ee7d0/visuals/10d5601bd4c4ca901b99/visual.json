@@ -1,0 +1,106 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "10d5601bd4c4ca901b99",
+  "position": {
+    "x": 783.69462516534838,
+    "y": 151.76308614313095,
+    "z": 4002,
+    "height": 227.64462921469644,
+    "width": 485.14429176902519,
+    "tabOrder": 4002
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "DayName"
+                }
+              },
+              "queryRef": "Calendar.DayName",
+              "nativeQueryRef": "DayName",
+              "active": true,
+              "displayName": "DayName"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Month_Name"
+                }
+              },
+              "queryRef": "Calendar.Month_Name",
+              "nativeQueryRef": "Month_Name",
+              "active": false,
+              "displayName": "Month_Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Year"
+                }
+              },
+              "queryRef": "Calendar.Year",
+              "nativeQueryRef": "Year",
+              "active": false,
+              "displayName": "Year"
+            }
+          ],
+          "fieldParameters": [
+            {
+              "parameterExpr": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Intervals"
+                    }
+                  },
+                  "Property": "Intervals"
+                }
+              },
+              "index": 0,
+              "length": 3
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "TotalRevenue"
+                }
+              },
+              "queryRef": "MeasureTable.TotalRevenue",
+              "nativeQueryRef": "TotalRevenue"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

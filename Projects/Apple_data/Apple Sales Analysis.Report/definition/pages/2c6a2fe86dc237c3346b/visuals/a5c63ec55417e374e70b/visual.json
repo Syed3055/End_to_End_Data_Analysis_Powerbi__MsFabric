@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "a5c63ec55417e374e70b",
+  "position": {
+    "x": 690.39764597899739,
+    "y": 252.52382366439002,
+    "z": 3,
+    "height": 467.72885565423962,
+    "width": 589.63690845773829
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "autoSelectVisualType": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Apple_data_silver Apple_sil_data"
+                    }
+                  },
+                  "Property": "month"
+                }
+              },
+              "queryRef": "Apple_data_silver Apple_sil_data.month",
+              "nativeQueryRef": "month"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Apple_data_silver Apple_sil_data"
+                  }
+                },
+                "Property": "month"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

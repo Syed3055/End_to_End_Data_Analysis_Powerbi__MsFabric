@@ -2,7 +2,7 @@ table Calendar
 	lineageTag: 5cc837ba-b44b-4e8f-8c85-9dc0832d6679
 
 	column Date
-		formatString: DD-mm-YYYY
+		formatString: Short Date
 		lineageTag: 9ffa1b74-f362-4ef8-8eff-47200a7bbabf
 		summarizeBy: none
 		isNameInferred
@@ -10,12 +10,12 @@ table Calendar
 
 		variation Variation
 			isDefault
-			relationship: 7d6e4609-2506-4818-92e8-fd77a82612f2
+			relationship: 3ed9add7-48e2-40e1-a664-818d5050d115
 			defaultHierarchy: LocalDateTable_487a1a43-9e18-4c78-aa87-ddb735da94e9.'Date Hierarchy'
 
 		annotation SummarizationSetBy = Automatic
 
-		annotation PBI_FormatHint = {"isCustom":true}
+		annotation UnderlyingDateTimeDataType = Date
 
 	column Year
 		formatString: 0
@@ -57,6 +57,7 @@ table Calendar
 		summarizeBy: none
 		isNameInferred
 		sourceColumn: [Month_Name]
+		sortByColumn: Month
 
 		annotation SummarizationSetBy = Automatic
 
@@ -82,12 +83,22 @@ table Calendar
 		summarizeBy: none
 		isNameInferred
 		sourceColumn: [DayName]
+		sortByColumn: Week_Day
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day_num
+		formatString: 0
+		lineageTag: 9c987810-d3b8-4405-8d99-6b1a4cb83fae
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Day_num]
 
 		annotation SummarizationSetBy = Automatic
 
 	partition Calendar = calculated
 		mode: import
-		source = ADDCOLUMNS(CALENDARAUTO(),"Year", YEAR([Date]),"Quarter",QUARTER([Date]),"Year_Month",FORMAT([Date],"yyyy_mm"),"Month",MONTH([Date]),"Month_Name",FORMAT([Date],"mmmm"),"R_Date",FORMAT([Date],"dd-mm-yyyy"), "Week_Day",WEEKDAY([Date],2), "DayName", FORMAT([Date],"ddd"))
+		source = ADDCOLUMNS(CALENDARAUTO(),"Year", YEAR([Date]),"Quarter",QUARTER([Date]),"Year_Month",FORMAT([Date],"yyyy_mm"),"Month",MONTH([Date]),"Month_Name",FORMAT([Date],"mmmm"),"R_Date",FORMAT([Date],"dd-mm-yyyy"), "Week_Day",WEEKDAY([Date],2), "DayName", FORMAT([Date],"ddd"),"Day_num",DAY([Date]))
 
 	annotation PBI_Id = 1d794e0a8db344c39bfdd05ab5654e22
 
