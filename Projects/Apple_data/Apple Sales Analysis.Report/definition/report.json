@@ -9,6 +9,15 @@
         "page": "2.3.0"
       },
       "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Custom4669227695954531.json",
+      "reportVersionAtImport": {
+        "visual": "2.5.0",
+        "report": "3.1.0",
+        "page": "2.3.0"
+      },
+      "type": "RegisteredResources"
     }
   },
   "objects": {
@@ -39,6 +48,12 @@
       }
     ]
   },
+  "publicCustomVisuals": [
+    "Sunburst1445472000808",
+    "WordCloud1447959067750",
+    "sunburst_visual_7866DD911E374F88B8C085F91F12F0D7",
+    "performanceBubbleChartFBAAA829CB604E5CAB4F21729F233294"
+  ],
   "resourcePackages": [
     {
       "name": "SharedResources",
@@ -56,11 +71,6 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "clear-filter05983069676375563.png",
-          "path": "clear-filter05983069676375563.png",
-          "type": "Image"
-        },
-        {
           "name": "apple_15324956637847927167609.png",
           "path": "apple_15324956637847927167609.png",
           "type": "Image"
@@ -69,6 +79,11 @@
           "name": "apple_153249514636721941226227.png",
           "path": "apple_153249514636721941226227.png",
           "type": "Image"
+        },
+        {
+          "name": "Custom4669227695954531.json",
+          "path": "Custom4669227695954531.json",
+          "type": "CustomTheme"
         }
       ]
     }

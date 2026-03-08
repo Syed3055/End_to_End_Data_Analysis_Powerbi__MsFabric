@@ -1,0 +1,197 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "f50577594b4a005cb4ea",
+  "position": {
+    "x": 22.391275004724239,
+    "y": 52.246308344356557,
+    "z": 0,
+    "height": 360.74831952055717,
+    "width": 929.2379126960559,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "performanceBubbleChartFBAAA829CB604E5CAB4F21729F233294",
+    "query": {
+      "queryState": {
+        "ymeasure": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "TotalRevenue"
+                }
+              },
+              "queryRef": "MeasureTable.TotalRevenue",
+              "nativeQueryRef": "TotalRevenue"
+            }
+          ]
+        },
+        "xmeasure": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "MeasureTable"
+                    }
+                  },
+                  "Property": "TotalOrders"
+                }
+              },
+              "queryRef": "MeasureTable.TotalOrders",
+              "nativeQueryRef": "TotalOrders"
+            }
+          ]
+        },
+        "category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calendar"
+                    }
+                  },
+                  "Property": "Month_Name"
+                }
+              },
+              "queryRef": "Calendar.Month_Name",
+              "nativeQueryRef": "Month_Name",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "exporter": [
+        {
+          "properties": {
+            "trellisPersistTopN": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"showItems\":\"top\",\"value\":10,\"basedOn\":\"\",\"showOthers\":true,\"migrated\":true}'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "legend": [
+        {
+          "properties": {
+            "legendPositionCombinedBubble": {
+              "expr": {
+                "Literal": {
+                  "Value": "'bottom_center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "editor": [
+        {
+          "properties": {
+            "trendline": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"enabled\":false,\"type\":\"linear\",\"lineColor\":\"#C21111\",\"lineStyle\":\"Solid\",\"displayEquation\":true,\"showInLegend\":true}'"
+                }
+              }
+            },
+            "markerStylingValue": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"markerBorder\":1,\"type\":\"both\",\"customImage\":false,\"stylingType\":\"differentForAll\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#893395\",\"pattern\":\"default\",\"markerSize\":10,\"minSize\":\"15\",\"maxSize\":\"100\",\"othersEnabled\":false,\"othersType\":\"border\",\"othersSymbol\":\"square\",\"othersUnicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAmSURBVHgB7cwxAQAACAJBtH8OamoJBoa/ADe2TwGrECIiIqKW6AFziQMVMCP75AAAAABJRU5ErkJggg==\",\"othersFillColor\":\"#FF0000\",\"othersPattern\":\"default\",\"othersImage\":\"\",\"othersImageName\":\"\",\"January\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#B8B8B8\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"February\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#6B007B\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"March\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#E044A7\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"April\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#744EC2\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"May\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#D9B300\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"June\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#D64550\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"July\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#3599B8\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"August\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#DFBFBF\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"September\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#4AC5BB\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"October\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#5F6B6D\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"November\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#FB8281\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"},\"December\":{\"type\":\"both\",\"symbol\":\"circle\",\"unicode\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgBrZTNbYNAEIVnBySuLoFUEKcDtoL4CghZVEYiBNckFUA6oIQtwVcOQN446x/5H62/y+6gmccwy1tFFyjLMmLmtVIqQhjaxx3ibpqmnyRJvk9r1HFQFEUYBEGBbUS3MX3f6zzPzZlQVVVLLA3euqDH2KA7naZpJwHvOpkpIiyQ39jafyF8zlyRvZgdBSkMduV53hc5MAyDZt/338kRaKwZA1uSI9CIZEbOQiBkehIiZMidToR+yRGxDuPoPsgR8d/WInVdN3TfX9cwMPEL29ZyqG5oJlKDWi37rVAcxwaLniNmc7Wtpf3xi4txB73RY6fYSu7O+YK6lGX9t8L2lQ4/rEEX7TiOn1mWtac1fzSYaB5mgZlrAAAAAElFTkSuQmCC\",\"fillColor\":\"#F4D25A\",\"pattern\":\"default\",\"image\":\"\",\"imageName\":\"\"}}'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "migration": [
+        {
+          "properties": {
+            "migrationSettings": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"v3_0_1\":{\"exporter\":{\"isResolved\":true},\"legend\":{\"isResolved\":true},\"editor\":{\"isResolved\":true}}}'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "license": [
+        {
+          "properties": {
+            "appSourceLicense": {
+              "expr": {
+                "Literal": {
+                  "Value": "''"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "xaxis": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "xAxisGridLineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "yaxis": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

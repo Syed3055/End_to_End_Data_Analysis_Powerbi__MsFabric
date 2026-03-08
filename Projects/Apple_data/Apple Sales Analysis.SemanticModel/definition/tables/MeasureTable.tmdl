@@ -19,19 +19,23 @@ table MeasureTable
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure TotalOrders = COUNTROWS('Apple_data_silver Apple_sil_data')
+	measure TotalOrders = COUNT('Apple_data_silver Apple_sil_data'[sale_id])
 		formatString: 0
 		lineageTag: 5e7b6e5a-cdb1-4389-a5f2-d5d5cd9e95ba
 
-	measure TotalMTD = TOTALMTD(COUNT('Apple_data_silver Apple_sil_data'[sale_id]), 'Calendar'[Date])
+	measure TotalRevenueMTD = TOTALMTD([TotalRevenue], 'Calendar'[Date])
 		formatString: 0
 		lineageTag: 0dd618dc-a957-4d10-b491-01c130565180
 
-	measure MOMGrowth% = IF([PreviousMonthRevenue]=BLANK(),BLANK(), DIVIDE([TotalRevenue]-[PreviousMonthRevenue],[PreviousMonthRevenue],0))
+	measure MOMGrowth% = ```
+			IF([PreviousMonthRevenue]=BLANK(),BLANK(), DIVIDE([TotalRevenue]-[PreviousMonthRevenue],[PreviousMonthRevenue],0))
+			
+			
+			```
 		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: e1a13b99-4f40-4e05-b5ac-5128aaa9128a
 
-	measure PreviousYearOrders = CALCULATE(COUNTROWS('Apple_data_silver Apple_sil_data'), DATEADD('Calendar'[Date],-1,YEAR))
+	measure PreviousYearOrders = IF(ISFILTERED('Calendar'[Year]),  CALCULATE(COUNTROWS('Apple_data_silver Apple_sil_data'), DATEADD('Calendar'[Date],-1,YEAR)),0)
 		formatString: 0
 		lineageTag: 995dfc8f-3185-4ffb-bc63-538dc4648d38
 
@@ -39,7 +43,7 @@ table MeasureTable
 		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: a9062d91-edda-4bc3-83bf-c1d389c830a9
 
-	measure PreviousYearRevenue = CALCULATE([TotalRevenue],DATEADD('Calendar'[Date],-1,YEAR))
+	measure PreviousYearRevenue = IF(ISFILTERED('Calendar'[Year]), CALCULATE([TotalRevenue],DATEADD('Calendar'[Date],-1,YEAR)),0)
 		lineageTag: e9d293b2-03ed-4ad2-af32-6d19390aad5e
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
@@ -58,6 +62,21 @@ table MeasureTable
 		lineageTag: 89e41e86-154a-4768-9db7-988608ae85d5
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure MOM_arrow_concat = CONCATENATE([MOMCFArrows]&" ", FORMAT([MOMGrowth%],"0.00%"))
+		lineageTag: 5ffb608d-f2fb-4d7d-9d17-1e5324b29271
+
+	measure OrdersCF% = IF([TotalOrders]>[PreviousYearOrders],CONCATENATE(UNICHAR(9650)&" ",FORMAT([YOY_Orders_Growth%],"0.00%")),CONCATENATE(UNICHAR(9660)&" ",FORMAT([YOY_Orders_Growth%],"0.00%")))
+		lineageTag: 268670e0-13e7-4da0-a5e3-0fac81b0fff9
+
+	measure OrderColour = IF([TotalOrders]>[PreviousYearOrders],"Green","Red")
+		lineageTag: 1339eb9c-ef0e-42d8-91b4-cd13e527ce11
+
+	measure Y_RevenuCF = IF([TotalRevenue]>[PreviousYearRevenue],"Green","Red")
+		lineageTag: 472a2d38-73ed-4fc1-b428-2f48ba25eb08
+
+	measure Y_RevenueArrow% = IF([TotalRevenue]>[PreviousYearRevenue],CONCATENATE(UNICHAR(9650)&" ",FORMAT([YOYRevenueGrowth%],"0.00%")),CONCATENATE(UNICHAR(9660)&" ",FORMAT([YOYRevenueGrowth%],"0.00%")))
+		lineageTag: 1fe90e85-d8d5-4f6f-9fa4-5080238912d4
 
 	partition MeasureTable = m
 		mode: import

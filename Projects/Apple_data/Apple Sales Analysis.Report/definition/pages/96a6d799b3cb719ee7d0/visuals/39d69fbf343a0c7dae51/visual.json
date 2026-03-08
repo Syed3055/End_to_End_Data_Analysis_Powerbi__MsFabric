@@ -5,8 +5,8 @@
     "x": 0,
     "y": 0,
     "z": 0,
-    "height": 65.422222222222217,
-    "width": 1280,
+    "height": 64.685905569203356,
+    "width": 1280.0345544367356,
     "tabOrder": 0
   },
   "visual": {
@@ -19,17 +19,24 @@
               {
                 "textRuns": [
                   {
-                    "value": "    ",
+                    "value": "   ",
                     "textStyle": {
                       "fontFamily": "Arial Black",
                       "fontSize": "28pt"
                     }
                   },
                   {
+                    "value": " ",
+                    "textStyle": {
+                      "fontFamily": "Arial Black",
+                      "fontSize": "24pt"
+                    }
+                  },
+                  {
                     "value": "Apple Sales Analysis",
                     "textStyle": {
                       "fontFamily": "Cambria Math",
-                      "fontSize": "28pt"
+                      "fontSize": "24pt"
                     }
                   }
                 ]

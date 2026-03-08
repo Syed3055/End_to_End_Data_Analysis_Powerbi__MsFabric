@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "db3ef10b7074607d5159",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 64.685905569203356,
+    "width": 1280.0345544367356,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "   ",
+                    "textStyle": {
+                      "fontFamily": "Arial Black",
+                      "fontSize": "28pt"
+                    }
+                  },
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontFamily": "Arial Black",
+                      "fontSize": "24pt"
+                    }
+                  },
+                  {
+                    "value": "Apple Sales Analysis",
+                    "textStyle": {
+                      "fontFamily": "Cambria Math",
+                      "fontSize": "24pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

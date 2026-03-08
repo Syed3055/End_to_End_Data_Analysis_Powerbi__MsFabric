@@ -1,0 +1,82 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "0f7a88c0b9c0b3d1d640",
+  "position": {
+    "x": 344.57684312825631,
+    "y": 44.782550009448478,
+    "z": 3,
+    "height": 208.98523337742623,
+    "width": 400.55503064006695
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Apple_data_silver Apple_sil_data"
+                    }
+                  },
+                  "Property": "product_name"
+                }
+              },
+              "queryRef": "Apple_data_silver Apple_sil_data.product_name",
+              "nativeQueryRef": "product_name"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Apple_data_silver Apple_sil_data"
+                        }
+                      },
+                      "Property": "unit_price_usd"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Apple_data_silver Apple_sil_data.unit_price_usd)",
+              "nativeQueryRef": "Sum of unit_price_usd"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Apple_data_silver Apple_sil_data"
+                      }
+                    },
+                    "Property": "unit_price_usd"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "5cbf16a5ea059cbaabd1",
+  "position": {
+    "x": 14.927516669816159,
+    "y": 446.58154037200012,
+    "z": 6,
+    "height": 273.67113894662958,
+    "width": 593.36878762519234,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "WordCloud1447959067750",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Apple_data_silver Apple_sil_data"
+                    }
+                  },
+                  "Property": "product_name"
+                }
+              },
+              "queryRef": "Apple_data_silver Apple_sil_data.product_name",
+              "nativeQueryRef": "product_name"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

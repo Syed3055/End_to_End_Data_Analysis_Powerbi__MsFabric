@@ -1,0 +1,34 @@
+table PageTable
+	lineageTag: 29082972-2647-4b17-8f12-8c70b635a421
+
+	column Pages
+		dataType: string
+		lineageTag: f504daba-f50b-4433-bdb1-b4827b997c64
+		summarizeBy: none
+		sourceColumn: Pages
+		sortByColumn: Sno
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sno
+		dataType: int64
+		formatString: 0
+		lineageTag: 10f84128-1fcf-48f7-b448-2b5551924be6
+		summarizeBy: sum
+		sourceColumn: Sno
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PageTable = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45W8i9LLQrLTC1X0lEyVIrViVZyTMovLVFwLCjISQWKGSnFxgIA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Pages = _t, Sno = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Pages", type text}, {"Sno", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

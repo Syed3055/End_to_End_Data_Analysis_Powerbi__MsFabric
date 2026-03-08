@@ -32,7 +32,8 @@
                     "value": "About Apple",
                     "textStyle": {
                       "fontFamily": "Segoe UI Semibold",
-                      "fontSize": "14pt"
+                      "fontSize": "14pt",
+                      "textDecoration": "underline"
                     }
                   }
                 ]
