@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "BMW Car Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9cb2923b-c8e6-aeb2-43c4-70fdb21a324b"
+  }
+}

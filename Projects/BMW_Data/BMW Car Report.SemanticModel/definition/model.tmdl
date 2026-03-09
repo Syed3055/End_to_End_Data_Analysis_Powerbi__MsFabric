@@ -1,0 +1,19 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Bmw_Silver BMW_Silver_Data","DataRefreshTable"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Bmw_Silver BMW_Silver_Data'
+ref table DataRefreshTable
+
+ref cultureInfo en-US
+

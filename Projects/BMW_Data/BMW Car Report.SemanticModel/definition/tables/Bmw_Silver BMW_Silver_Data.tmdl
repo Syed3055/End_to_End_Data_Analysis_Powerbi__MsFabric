@@ -1,0 +1,138 @@
+table 'Bmw_Silver BMW_Silver_Data'
+	lineageTag: 954ea07b-770b-4418-a1b1-f8f8884c5e60
+
+	column Model
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 11bded4d-8dc4-4414-8765-e4c6550cfd21
+		summarizeBy: none
+		sourceColumn: Model
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: f6deb60d-bc7a-4c24-8083-8c21d454d518
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 3983945d-9184-4010-840f-80a52d00709f
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Color
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 1ebe74fb-0bdb-4caa-a179-b69384cdf236
+		summarizeBy: none
+		sourceColumn: Color
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fuel_Type
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 48ad4f8e-becf-4a6f-8917-932fc1e42945
+		summarizeBy: none
+		sourceColumn: Fuel_Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Transmission
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: dc8b84b7-e895-4f39-83ac-f903a56de7ac
+		summarizeBy: none
+		sourceColumn: Transmission
+
+		annotation SummarizationSetBy = Automatic
+
+	column Engine_Size_L
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 6a54f05a-60a9-4930-9095-0a2993fbff46
+		summarizeBy: sum
+		sourceColumn: Engine_Size_L
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Mileage_KM
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 82e323a1-62f5-4c8b-8720-22ebdbc36ac7
+		summarizeBy: sum
+		sourceColumn: Mileage_KM
+
+		annotation SummarizationSetBy = Automatic
+
+	column Price_USD
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 4766f725-71a5-437b-95e0-fe9ceb0c3505
+		summarizeBy: sum
+		sourceColumn: Price_USD
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sales_Volume
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 16abd8f5-0342-47f7-bdbf-1a7441d9bb29
+		summarizeBy: sum
+		sourceColumn: Sales_Volume
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sales_Classification
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 9595051b-3ab1-4e35-be77-14059fb66f3c
+		summarizeBy: none
+		sourceColumn: Sales_Classification
+
+		annotation SummarizationSetBy = Automatic
+
+	column __filepath__
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 9dd325b0-85a0-4b88-835a-cf4544bdedc0
+		summarizeBy: none
+		sourceColumn: __filepath__
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotalSales
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 9f1427ed-7f41-4209-b06f-dfd4775d7b2f
+		summarizeBy: sum
+		sourceColumn: TotalSales
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Bmw_Silver BMW_Silver_Data' = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database("s4upbqk4pime5ebsio5r7pkbu4-lyskuohroggu7f5xvfby3ujtjm.datawarehouse.fabric.microsoft.com", "BMW_LH"),
+				    Bmw_Silver_BMW_Silver_Data = Source{[Schema="Bmw_Silver",Item="BMW_Silver_Data"]}[Data]
+				in
+				    Bmw_Silver_BMW_Silver_Data
+
+	annotation PBI_ResultType = Table
+
