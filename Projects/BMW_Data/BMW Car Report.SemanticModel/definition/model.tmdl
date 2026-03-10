@@ -8,12 +8,13 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["Bmw_Silver BMW_Silver_Data","DataRefreshTable"]
+annotation PBI_QueryOrder = ["Bmw_Silver BMW_Silver_Data","DataRefreshTable","MeasureTable"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
 ref table 'Bmw_Silver BMW_Silver_Data'
 ref table DataRefreshTable
+ref table MeasureTable
 
 ref cultureInfo en-US
 

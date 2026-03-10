@@ -1,0 +1,66 @@
+table MeasureTable
+	lineageTag: 9e945f11-3684-4c14-ad26-0d4347a4eede
+
+	measure 'Region Filter Label' =
+			
+			VAR RegionFiltered  = ISFILTERED('Bmw_Silver BMW_Silver_Data'[Region])
+			VAR FuelFiltered    = ISFILTERED('Bmw_Silver BMW_Silver_Data'[Fuel_Type])
+			VAR MileageFiltered = ISFILTERED('Bmw_Silver BMW_Silver_Data'[Mileage_KM])
+			RETURN
+			IF (
+			    NOT (RegionFiltered || FuelFiltered || MileageFiltered),
+			    BLANK(),
+			    VAR RegionLabel  =
+			        IF (
+			            HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Region]),
+			            CONCATENATE("Region: " , SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Region])),
+			            "Region: Multiple"
+			        )
+			    VAR FuelLabel    =
+			        IF (
+			            HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type]),
+			             CONCATENATE("Fuel Type: " , SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type])),
+			            " | Fuel Type: Multiple"
+			        )
+			    VAR MileageLabel =
+			        IF (
+			            HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Mileage_KM]),
+			             CONCATENATE("Mileage KM: " ,
+			                FORMAT(SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Mileage_KM]), "#,0")),
+			            " | Mileage KM: Multiple"
+			        )
+			    RETURN
+			        CONCATENATE(RegionLabel || FuelLabel , MileageLabel)
+			)
+		lineageTag: b7fc1aaa-beac-46a0-a462-5dd5624e2b70
+
+	measure FilterSelects = ```
+			
+			SWITCH(TRUE(),  ISFILTERED('Bmw_Silver BMW_Silver_Data'[Region]) ||  ISFILTERED('Bmw_Silver BMW_Silver_Data'[Fuel_Type])," ",
+			HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Region]),
+			CONCATENATE("Region :",SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Region])), 
+			HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type]),
+			CONCATENATE("Fuel Type :", SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type])),CONCATENATE(SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Region]) || SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type]),"Multiple"))
+			```
+		lineageTag: 17f85704-a27f-480d-9b40-c9417db86819
+
+	measure RegionFilter2 =
+			
+			Var region = IF(NOT ISFILTERED('Bmw_Silver BMW_Silver_Data'[Region])," ", IF(HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Region]),CONCATENATE("Region :", SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Region])),"Region : Multiple"))
+			Var fuel =  IF(NOT ISFILTERED('Bmw_Silver BMW_Silver_Data'[Fuel_Type])," ", IF(HASONEVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type]),CONCATENATE("Fuel Type :", SELECTEDVALUE('Bmw_Silver BMW_Silver_Data'[Fuel_Type])),"Fuel Type : Multiple"))
+			RETURN
+			CONCATENATE(region & UNICHAR(10)& fuel& UNICHAR(10),"")
+		lineageTag: 576afd66-3e5e-4fdf-9ecc-8b5f21008989
+
+	partition MeasureTable = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

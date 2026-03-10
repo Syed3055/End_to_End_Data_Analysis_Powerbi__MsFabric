@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
-  "name": "c0d9a5e44a924580d883",
+  "name": "3573c793ce2e8736e425",
   "position": {
-    "x": 373.187916745404,
+    "x": 274.91509866911429,
     "y": 3.7318791674540397,
-    "z": 3000,
+    "z": 2000,
     "height": 34.830872229571035,
     "width": 98.27281807628971,
-    "tabOrder": 2001
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "actionButton",
@@ -75,7 +75,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Volume'"
+                  "Value": "'Sales'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
@@ -90,13 +97,6 @@
               "expr": {
                 "Literal": {
                   "Value": "12D"
-                }
-              }
-            },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             },
