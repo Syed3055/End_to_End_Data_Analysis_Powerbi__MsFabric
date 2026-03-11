@@ -52,6 +52,27 @@ table MeasureTable
 			CONCATENATE(region & UNICHAR(10)& fuel& UNICHAR(10),"")
 		lineageTag: 576afd66-3e5e-4fdf-9ecc-8b5f21008989
 
+	measure TotalSales = SUM('Bmw_Silver BMW_Silver_Data'[TotalSales])
+		formatString: 0
+		lineageTag: 8b65683a-18f0-49f6-adba-54a580083af9
+
+	measure CurrentYear =
+			
+			var m_year = MAX('Bmw_Silver BMW_Silver_Data'[Year])
+			var FC = CALCULATE([TotalSales], 'Bmw_Silver BMW_Silver_Data'[Year] = m_year)
+			RETURN
+			FC
+		formatString: 0
+		lineageTag: fa842b7f-929b-4e52-88fe-5d0b78751bdb
+
+	measure CY_Volume =
+			var m_year = MAX('Bmw_Silver BMW_Silver_Data'[Year])
+			var FC = CALCULATE(SUM('Bmw_Silver BMW_Silver_Data'[Sales_Volume]), 'Bmw_Silver BMW_Silver_Data'[Year]=m_year)
+			RETURN
+			FC
+		formatString: 0
+		lineageTag: bbe1322c-a4a4-4e50-9ba1-8f27691b532c
+
 	partition MeasureTable = m
 		mode: import
 		source =

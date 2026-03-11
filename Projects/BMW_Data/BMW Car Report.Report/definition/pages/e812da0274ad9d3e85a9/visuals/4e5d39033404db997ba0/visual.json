@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "4e5d39033404db997ba0",
+  "position": {
+    "x": 15.504682963092145,
+    "y": 50.471691959746821,
+    "z": 6000,
+    "height": 69.661744459142071,
+    "width": 186.593958372702,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Bmw_Silver BMW_Silver_Data"
+                    }
+                  },
+                  "Property": "Transmission"
+                }
+              },
+              "queryRef": "Bmw_Silver BMW_Silver_Data.Transmission",
+              "nativeQueryRef": "Transmission",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Arial Unicode MS'''"
+                }
+              }
+            },
+            "padding": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "parentGroupName": "eac19095657b7acc1080",
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f9e49606bcc357dd70d6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Bmw_Silver BMW_Silver_Data"
+              }
+            },
+            "Property": "Transmission"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  },
+  "isHidden": true
+}

@@ -7,7 +7,7 @@
     "z": 5000,
     "height": 223.91275004724238,
     "width": 231.37650838215046,
-    "tabOrder": 2003
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "tableEx",
@@ -123,23 +123,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "e0ab275535722d185d7c",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "MeasureTable"
-              }
-            },
-            "Property": "RegionFilter2"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

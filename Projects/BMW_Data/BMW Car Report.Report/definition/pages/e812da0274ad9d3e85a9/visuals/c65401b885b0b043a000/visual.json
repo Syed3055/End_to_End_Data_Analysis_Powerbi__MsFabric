@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "c65401b885b0b043a000",
+  "position": {
+    "x": 9.95167777987744,
+    "y": 0,
+    "z": 0,
+    "height": 38.562751397025075,
+    "width": 186.593958372702,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "BMW Car Sales",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Arial Unicode MS",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

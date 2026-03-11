@@ -4,9 +4,10 @@
   "position": {
     "x": 6.8570758012328863,
     "y": 121.20958935646804,
-    "z": 812,
+    "z": 3000,
     "height": 64.685905569203356,
-    "width": 171.66644170288583
+    "width": 171.66644170288583,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "slicer",
@@ -193,23 +194,5 @@
     },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "b5a20b546b8081206a21",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "ae56fdc96d3b8842abc1",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bmw_Silver BMW_Silver_Data"
-              }
-            },
-            "Property": "Fuel_Type"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
-  }
+  "parentGroupName": "b5a20b546b8081206a21"
 }

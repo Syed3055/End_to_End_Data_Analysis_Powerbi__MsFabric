@@ -4,9 +4,10 @@
   "position": {
     "x": 15.504682963092145,
     "y": 50.471691959746821,
-    "z": 937,
+    "z": 6000,
     "height": 69.661744459142071,
-    "width": 186.593958372702
+    "width": 186.593958372702,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "slicer",
@@ -78,23 +79,5 @@
     "drillFilterOtherVisuals": true
   },
   "parentGroupName": "b5a20b546b8081206a21",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "7c403650e4d058c21045",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Bmw_Silver BMW_Silver_Data"
-              }
-            },
-            "Property": "Transmission"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
-  },
   "isHidden": true
 }

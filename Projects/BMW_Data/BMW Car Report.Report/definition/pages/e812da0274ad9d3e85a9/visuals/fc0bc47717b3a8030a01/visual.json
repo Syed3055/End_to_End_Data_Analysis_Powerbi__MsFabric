@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "fc0bc47717b3a8030a01",
+  "position": {
+    "x": 251.27986394190535,
+    "y": 213.96107226736495,
+    "z": 16000,
+    "height": 495.09596954890259,
+    "width": 294.81845422886914,
+    "tabOrder": 15000
+  },
+  "visualGroup": {
+    "displayName": "Sales color & Region",
+    "groupMode": "ScaleMode"
+  }
+}

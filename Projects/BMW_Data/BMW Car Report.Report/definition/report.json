@@ -26,6 +26,10 @@
       }
     ]
   },
+  "publicCustomVisuals": [
+    "ZoomChartsFacetChartPaidE77E4ED357DC402ABA005987437CF500",
+    "ZoomChartsDrillDownComboBarProE77E4ED357DC402ABA005987437CF800"
+  ],
   "resourcePackages": [
     {
       "name": "SharedResources",

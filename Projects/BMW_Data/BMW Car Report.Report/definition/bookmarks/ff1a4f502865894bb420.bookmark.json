@@ -11,15 +11,493 @@
     "sections": {
       "3d47602420a5e381645e": {
         "visualContainers": {
+          "00df28bf99207dc82b00": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "7d67a78506c0d159e2ad": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "7f277540715120e002c5": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
           "98320254ea0e73a0e2d2": {
             "singleVisual": {
               "visualType": "actionButton",
               "objects": {}
             }
           },
+          "0934e917712212c62234": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "121dc8b650493bee86b9": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "4b7200c48820ba132616",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Color"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Color"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Color"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "1e927c743ccb74ced61e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "25602d7fbe01a01039b6",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Region"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Region"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "33d1e46528a7e193d68a": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "6936463638d4b505828c": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "6e70a58c98d86e450bce": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "ad023957c500ab9170b2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "10ced993057809372954",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Fuel_Type"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Fuel_Type"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Fuel_Type"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d8bded7b85870be00744": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ddfa7af017b45ada3027",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Transmission"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Transmission"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "f9097cab215ac6be925c": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "621296908018abd3510b",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "fd74b9a9719650a9c006": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "84c782a1654ecd59a7b2",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Transmission"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Transmission"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Transmission"
+                    }
+                  }
+                ]
+              },
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
           "c0d9a5e44a924580d883": {
             "singleVisual": {
               "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "c36119b05708528d90cd": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "e9210d120be5871011e4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "RegionFilter2"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
               "objects": {}
             }
           },
@@ -41,463 +519,6 @@
               "objects": {}
             }
           },
-          "c36119b05708528d90cd": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "e0ab275535722d185d7c",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "MeasureTable"
-                        }
-                      },
-                      "Property": "RegionFilter2"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "tableEx",
-              "objects": {}
-            }
-          },
-          "7f277540715120e002c5": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "0934e917712212c62234": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "6936463638d4b505828c": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "6e70a58c98d86e450bce": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {}
-            }
-          },
-          "33d1e46528a7e193d68a": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "f9097cab215ac6be925c": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "36e05b90d0d7078a4e00",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Model"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Model"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Model"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "121dc8b650493bee86b9": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "0c4e919bb9082c293a2d",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Color"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Color"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Color"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
-          "ad023957c500ab9170b2": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "ae56fdc96d3b8842abc1",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Fuel_Type"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Fuel_Type"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Fuel_Type"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "fd74b9a9719650a9c006": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "a77b34af243d06763cbc",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Transmission"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "orderBy": [
-                {
-                  "Direction": 1,
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Transmission"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Transmission"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
-          "d8bded7b85870be00744": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "7c403650e4d058c21045",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Transmission"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Transmission"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
-          "1e927c743ccb74ced61e": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "6cea11e42bc4c43c305e",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Region"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Bmw_Silver BMW_Silver_Data"
-                        }
-                      },
-                      "Property": "Region"
-                    }
-                  }
-                ]
-              },
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
           "f4e5b48e286dde083869": {
             "singleVisual": {
               "visualType": "actionButton",
@@ -510,7 +531,261 @@
               "objects": {}
             }
           },
-          "7d67a78506c0d159e2ad": {
+          "52ab56b036deb0a70048": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ab98ec8f95d0b40308d0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Basic'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "ae23e3051172d577cd87": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "daab13a331dabe9730ec",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ee35a6bb617ddee02e7a",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "lineChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Year"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "144280210b60434b7665": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3427f50404904eab736e",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "d29b8960ee021edede06",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Model"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "5d39cc820dd795ca57d5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a756bc994472db2c0068",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "f4a49e852c0c5ee9de31",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "CurrentYear"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "c7d5aef6d0a87c6350b6": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "5a1eadb0ab670930032a": {
             "singleVisual": {
               "visualType": "actionButton",
               "objects": {},
@@ -519,11 +794,160 @@
               }
             }
           },
-          "00df28bf99207dc82b00": {
+          "b55ed2c3694d17db920e": {
             "singleVisual": {
               "visualType": "actionButton",
               "objects": {}
             }
+          },
+          "faa3c66b318c60ed8630": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
+          "a369a7714c5e3b619218": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "47f7079fd6139529c0c0",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "847015f83800004c9ece",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Region"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Region"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "adb57b896005972ac40d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "0d88e410008d860b40bb",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "091a15be742ed7aa8ea5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Color"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "funnel",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "MeasureTable"
+                        }
+                      },
+                      "Property": "TotalSales"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Bmw_Silver BMW_Silver_Data"
+                        }
+                      },
+                      "Property": "Color"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "8e7af010090a63e63388": {
+            "isHidden": false
           }
         }
       }
